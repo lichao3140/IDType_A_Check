@@ -1,0 +1,281 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.telpo.idcheck"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:7:5-9:36
+12        android:name="android.hardware.usb.host"
+12-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:8:9-49
+13        android:required="false" />
+13-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:9:9-33
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:11:5-81
+15-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:12:5-80
+16-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:12:22-77
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:13:5-67
+17-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:13:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:14:5-73
+18-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:14:22-71
+19
+20    <uses-feature
+20-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:15:5-89
+21        android:name="android.hardware.bluetooth_le"
+21-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:15:19-63
+22        android:required="true" />
+22-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:15:64-87
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:16:5-65
+24-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:16:22-62
+25    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+25-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:17:5-75
+25-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:17:22-72
+26    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+26-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:18:5-84
+26-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:18:22-81
+27    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+27-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:19:5-73
+27-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:19:22-70
+28    <uses-permission android:name="android.permission.CALL_PHONE" />
+28-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:20:5-69
+28-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:20:22-66
+29    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+29-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:21:5-79
+29-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:21:22-76
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:22:5-66
+30-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:22:22-63
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:23:5-68
+31-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:23:22-65
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:24:5-79
+32-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:24:22-76
+33    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+33-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:11:5-81
+33-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:11:22-78
+34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+34-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:12:5-80
+34-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:12:22-77
+35    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+35-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:27:5-84
+35-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:27:22-81
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:28:5-67
+36-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:28:22-64
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:29:5-79
+37-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:29:22-76
+38    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+38-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:30:5-76
+38-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:30:22-73
+39    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+39-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:31:5-81
+39-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:31:22-78
+40    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+40-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:32:5-82
+40-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:32:22-79
+41    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:33:5-75
+41-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:33:22-72
+42    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+42-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:34:5-72
+42-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:34:22-69
+43    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+43-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:35:5-81
+43-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:35:22-78
+44    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+44-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:36:5-76
+44-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:36:22-73
+45    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+45-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:37:5-75
+45-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:37:22-72
+46    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+46-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:33:5-75
+46-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:33:22-72
+47    <uses-permission android:name="android.permission.CAMERA" />
+47-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:16:5-65
+47-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:16:22-62
+48    <uses-permission android:name="android.permission.FLASHLIGHT" />
+48-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:40:5-69
+48-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:40:22-66
+49    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+49-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:37:5-75
+49-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:37:22-72
+50
+51    <application
+51-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:43:5-129:19
+52        android:allowBackup="true"
+52-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:44:9-35
+53        android:debuggable="true"
+54        android:icon="@drawable/ic_launcher"
+54-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:45:9-45
+55        android:label="@string/app_name"
+55-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:46:9-41
+56        android:theme="@style/AppBaseTheme" >
+56-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:47:9-44
+57        <activity
+57-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:48:9-56:20
+58            android:name="com.telpo.idcheck.MainActivity"
+58-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:49:13-41
+59            android:label="@string/app_name" >
+59-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:50:13-45
+60            <intent-filter>
+60-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:51:13-55:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:52:17-69
+61-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:52:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:54:17-77
+63-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:54:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:57:9-61:20
+67            android:name="com.telpo.idcheck.SerialIdCardActivity"
+67-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:58:13-49
+68            android:configChanges="orientation|keyboardHidden"
+68-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:59:13-63
+69            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+69-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:60:13-72
+70        </activity>
+71        <activity
+71-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:62:9-70:20
+72            android:name="com.telpo.idcheck.UsbIdCardActivity"
+72-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:63:13-46
+73            android:configChanges="orientation|keyboardHidden"
+73-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:64:13-63
+74            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+74-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:65:13-72
+75            <meta-data
+75-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:67:13-69:57
+76                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+76-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:68:17-79
+77                android:resource="@xml/device_filter" />
+77-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:69:17-54
+78        </activity>
+79        <activity
+79-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:72:9-76:20
+80            android:name="com.telpo.simcheck.SimCheckMainActivity"
+80-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:73:13-67
+81            android:configChanges="orientation|keyboardHidden"
+81-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:74:13-63
+82            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+82-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:75:13-72
+83        </activity>
+84        <activity
+84-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:78:9-89:20
+85            android:name="com.telpo.simcheck.UsbSimCardActivity"
+85-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:79:13-65
+86            android:configChanges="orientation|keyboardHidden"
+86-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:80:13-63
+87            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+87-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:81:13-72
+88            <intent-filter>
+88-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:82:13-84:29
+89                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+89-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:83:17-90
+89-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:83:25-87
+90            </intent-filter>
+91
+92            <meta-data
+92-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:67:13-69:57
+93                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+93-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:68:17-79
+94                android:resource="@xml/device_filter" />
+94-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:69:17-54
+95        </activity>
+96        <activity
+96-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:90:9-98:20
+97            android:name="com.telpo.idcheck.OnlyIdcard"
+97-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:91:13-39
+98            android:configChanges="orientation|keyboardHidden"
+98-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:92:13-63
+99            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+99-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:93:13-72
+100            <meta-data
+100-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:67:13-69:57
+101                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+101-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:68:17-79
+102                android:resource="@xml/device_filter" />
+102-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:69:17-54
+103        </activity>
+104        <activity
+104-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:99:9-107:20
+105            android:name="com.telpo.idcheck.OnlyFinger"
+105-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:100:13-39
+106            android:configChanges="orientation|keyboardHidden"
+106-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:101:13-63
+107            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+107-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:102:13-72
+108            <meta-data
+108-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:67:13-69:57
+109                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+109-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:68:17-79
+110                android:resource="@xml/device_filter" />
+110-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:69:17-54
+111        </activity>
+112        <activity
+112-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:108:9-119:20
+113            android:name="com.telpo.typeAcheck.UsbTACardActivity"
+113-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:109:13-66
+114            android:configChanges="orientation|keyboardHidden"
+114-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:110:13-63
+115            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+115-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:111:13-72
+116            <intent-filter>
+116-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:82:13-84:29
+117                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+117-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:83:17-90
+117-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:83:25-87
+118            </intent-filter>
+119
+120            <meta-data
+120-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:67:13-69:57
+121                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+121-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:68:17-79
+122                android:resource="@xml/device_filter" />
+122-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:69:17-54
+123        </activity>
+124        <activity
+124-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:120:9-124:20
+125            android:name="com.telpo.typeAcheck.SerialTACardActivity"
+125-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:121:13-69
+126            android:configChanges="orientation|keyboardHidden"
+126-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:122:13-63
+127            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+127-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:123:13-72
+128        </activity>
+129        <activity
+129-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:125:9-128:20
+130            android:name="com.telpo.idcheck.BluetoothIdCardActivity"
+130-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:125:19-58
+131            android:configChanges="orientation|keyboardHidden"
+131-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:127:13-63
+132            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+132-->F:\code\G301\IDType_A_Check\app\src\main\AndroidManifest.xml:126:13-72
+133        </activity>
+134
+135        <meta-data
+135-->[com.android.support:appcompat-v7:25.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f6f7cc80d0fa3b1ad8b13db1d9a21fca\appcompat-v7-25.4.0\AndroidManifest.xml:26:9-28:38
+136            android:name="android.support.VERSION"
+136-->[com.android.support:appcompat-v7:25.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f6f7cc80d0fa3b1ad8b13db1d9a21fca\appcompat-v7-25.4.0\AndroidManifest.xml:27:13-51
+137            android:value="25.4.0" />
+137-->[com.android.support:appcompat-v7:25.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f6f7cc80d0fa3b1ad8b13db1d9a21fca\appcompat-v7-25.4.0\AndroidManifest.xml:28:13-35
+138    </application>
+139
+140</manifest>

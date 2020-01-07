@@ -1,0 +1,70 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:25.4.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi\libdoublecard.so => app\src\main\jniLibs\armeabi\libdoublecard.so
+* libs\armeabi\libfingerprint.so => app\src\main\jniLibs\armeabi\libfingerprint.so
+* libs\armeabi\libfppm.so => app\src\main\jniLibs\armeabi\libfppm.so
+* libs\armeabi\libidcard.so => app\src\main\jniLibs\armeabi\libidcard.so
+* libs\armeabi\libIDFpr.so => app\src\main\jniLibs\armeabi\libIDFpr.so
+* libs\armeabi\libIDFpr2.so => app\src\main\jniLibs\armeabi\libIDFpr2.so
+* libs\armeabi\libidfprcap.so => app\src\main\jniLibs\armeabi\libidfprcap.so
+* libs\armeabi\libImageProc.so => app\src\main\jniLibs\armeabi\libImageProc.so
+* libs\armeabi\libposutil.so => app\src\main\jniLibs\armeabi\libposutil.so
+* libs\armeabi\libserial_port.so => app\src\main\jniLibs\armeabi\libserial_port.so
+* libs\armeabi\libsystem_util.so => app\src\main\jniLibs\armeabi\libsystem_util.so
+* libs\armeabi\libtelpo_serial.so => app\src\main\jniLibs\armeabi\libtelpo_serial.so
+* libs\armeabi\libwlt2bmp.so => app\src\main\jniLibs\armeabi\libwlt2bmp.so
+* libs\armeabi\libzksensorcore.so => app\src\main\jniLibs\armeabi\libzksensorcore.so
+* libs\armeabi\libzkwltdecode.so => app\src\main\jniLibs\armeabi\libzkwltdecode.so
+* libs\core-3.1.0.jar => app\libs\core-3.1.0.jar
+* libs\PosUtil.jar => app\libs\PosUtil.jar
+* libs\sdta_xxl_API.jar => app\libs\sdta_xxl_API.jar
+* libs\telpo_api.jar => app\libs\telpo_api.jar
+* libs\zkandroidcore.jar => app\libs\zkandroidcore.jar
+* libs\zkandroidnidfpsensor.jar => app\libs\zkandroidnidfpsensor.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.telpo.idcheck"
+        minSdkVersion 19
+        targetSdkVersion 29
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation files('libs/core-3.1.0.jar')
+    implementation files('libs/PosUtil.jar')
+    implementation files('libs/sdta_xxl_API.jar')
+    implementation files('libs/telpo_api.jar')
+    implementation files('libs/zkandroidcore.jar')
+    implementation files('libs/zkandroidnidfpsensor.jar')
+}
